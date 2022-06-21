@@ -1,0 +1,7 @@
+environment:
+  DISCORD_JOKES_BOT_PUBLIC_KEY: ${DISCORD_JOKES_BOT_PUBLIC_KEY}
+packages:
+  - name: discord_bots
+    actions:
+    - name: jokes
+      web: raw

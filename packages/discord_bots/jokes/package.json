@@ -1,0 +1,8 @@
+{
+  "name": "sample-functions-discord-joke-bot",
+  "main": "index.js",
+  "dependencies": {
+    "tweetnacl": "1.0.3",
+    "give-me-a-joke":"0.5.1"
+  }
+}
