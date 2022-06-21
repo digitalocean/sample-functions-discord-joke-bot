@@ -1,7 +1,7 @@
 const nacl = require('tweetnacl');
 const giveMeAJoke = require('give-me-a-joke');
 
-// Get this values from the 
+// Get this values from the Discord Developer Portal. 
 const DISCORD_JOKES_BOT_PUBLIC_KEY = process.env.DISCORD_JOKES_BOT_PUBLIC_KEY;
 
 async function getRandomJoke() {
